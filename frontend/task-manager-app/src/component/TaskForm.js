@@ -15,7 +15,8 @@ const TaskForm = forwardRef( ({reRendertasks},ref)=>{
         pathInput] =
         [useRef(),useRef(),useRef(),useRef(),useRef(),useRef()];
     const sendData = async ()=>{
-        
+        console.log("hhhhhhhhhhhhhhhhhhhh")
+        console.log(date)
         const task = {
             title: tasknameInput.current.value,
             category:taskCategoryInput.current.value,

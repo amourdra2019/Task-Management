@@ -15,7 +15,6 @@ export default function CalendarBox({value,selected,setDate}){
     const toggle = (selectedbox)=>{
         try {
             
-        } catch (error) {
             if(selected === true){
 
                 if(document.querySelector("#theOne") != undefined){
@@ -45,6 +44,7 @@ export default function CalendarBox({value,selected,setDate}){
             }
         }
         
+        } catch (error) {
     }
 
     }
